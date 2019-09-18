@@ -34,5 +34,5 @@ test_ss_x = ss.transform(test_x)
 clf = tree.DecisionTreeClassifier()
 clf.fit(train_ss_x, train_y)
 prediction = clf.predict(test_ss_x)
-print('SVM准确率: %0.4lf' % accuracy_score(prediction, test_y))
+print('准确率: %0.4lf' % accuracy_score(prediction, test_y))
 
